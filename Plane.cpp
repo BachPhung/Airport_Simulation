@@ -77,7 +77,7 @@ Post: Processes a Plane that is landing at the specified time.
 	int wait = time - clock_start;
 	cout << time << ": Plane number " << flt_num << " landed after "
 		<< wait << " time unit" << ((wait == 1) ? "" : "s")
-		<< " in the takeoff queue." << endl;
+		<< " in the landing queue." << endl;
 }
 
 
