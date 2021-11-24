@@ -72,7 +72,7 @@ void Airport_5::run() {
 				current_plane.refuse();
 		}
 		Plane moving_plane;
-		switch (runway->activity(current_time, moving_plane)) {
+		switch (runway->activity_5(current_time, moving_plane)) {
 		case land: {
 			moving_plane.land(current_time);
 			break;
